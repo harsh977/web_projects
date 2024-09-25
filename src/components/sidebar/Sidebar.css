@@ -1,0 +1,29 @@
+.sidebar{
+    padding: 25px 15px;
+}
+
+.sidebar img{
+    width: 20px;
+    
+}
+
+.sidebar .recent{
+    animation: fadeIn 1.5s;
+}
+
+
+.sidebar .new-chat{
+    display: inline-flex;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    .sidebar{
+        display: none;
+    }
+}
